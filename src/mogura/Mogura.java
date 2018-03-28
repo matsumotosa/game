@@ -18,8 +18,8 @@ import model.*;
 
 public class Mogura {
 	public static void main(String[] args) {
-		MoguraBase mb = new MoguraBase("file:C:\\Users\\y_01v\\Desktop\\usagi.gif");
-		MoguraProducer mp = new MoguraProducer(mb, 10, 80);
+		MoguraBase mb = new MoguraBase();
+		MoguraProducer mp = new MoguraProducer(mb, 10, 80, 1500);
 
 	}
 }

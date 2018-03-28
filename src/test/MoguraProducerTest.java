@@ -17,7 +17,7 @@ public class MoguraProducerTest {
 	}
 	public static void execute2() {
 		MoguraBase mogurabase = new MoguraBase();
-		MoguraProducer moguraproducer = new MoguraProducer(mogurabase, 10, 200);
+		MoguraProducer moguraproducer = new MoguraProducer(mogurabase, 10, 200, 2000);
 	}
 	public static void execute3() {
 		MoguraProducer moguraproducer = new MoguraProducer();

@@ -11,12 +11,12 @@ public class MoguraBaseTest {
 
 	public static void execute1() {
 		MoguraBase mogurabase = new MoguraBase("file:C:\\Users\\y_01v\\Desktop\\usagi.gif");
-		MoguraProducer moguraproducer = new MoguraProducer(mogurabase, 3, 100);
+		MoguraProducer moguraproducer = new MoguraProducer(mogurabase, 3, 100, 2000);
 
 	}
 	public static void execute2() {
 		MoguraBase mogurabase = new MoguraBase();
-		MoguraProducer moguraproducer = new MoguraProducer(mogurabase, 4, 500);
+		MoguraProducer moguraproducer = new MoguraProducer(mogurabase, 4, 500, 2000);
 
 	}
 }
